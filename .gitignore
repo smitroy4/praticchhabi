@@ -39,3 +39,11 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# runtime uploads (files uploaded through the app)
+/public/uploads/*
+!/public/uploads/.gitkeep
+
+# dev server logs
+.dev-server.log
+.dev-server.err.log
